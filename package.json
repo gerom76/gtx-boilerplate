@@ -38,7 +38,7 @@
     "lint": "yarn run eslint src",
     "lint:fix": "yarn run eslint --fix src",
     "lint:css": "stylelint src/**/*.css",
-    "prettify": "prettier --write"
+    "prettify": "prettier --write ./src"
   },
   "eslintConfig": {
     "extends": [
