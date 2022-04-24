@@ -1,5 +1,3 @@
-/* eslint-disable prettier/prettier */
-import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { ComponentA } from 'components/ComponentA';
@@ -9,11 +7,11 @@ function App() {
   const z = y + 2;
   console.log('z', z);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div className="app">
+      <header className="app-header">
+        <img src={logo} className="app-logo" alt="logo" />
         <>
-          <ComponentA parameter1="AbC" className="colorMain"></ComponentA>
+          <ComponentA parameter1="AbC" className="color-main"></ComponentA>
         </>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
