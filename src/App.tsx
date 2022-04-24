@@ -2,7 +2,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ComponentA } from './components/ComponentA';
+import { ComponentA } from 'components/ComponentA';
 
 function App() {
   const y = 1;
