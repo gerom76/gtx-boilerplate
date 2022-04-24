@@ -1,6 +1,8 @@
+/* eslint-disable prettier/prettier */
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { ComponentA } from './components/ComponentA';
 
 function App() {
   const y = 1;
@@ -10,6 +12,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          <ComponentA parameter1='AbC' className='colorMain'></ComponentA>
+        </p>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
