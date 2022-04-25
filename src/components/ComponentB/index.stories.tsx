@@ -24,6 +24,6 @@ DefaultStory.args = {
 
 export const OutlinedStory = Template.bind({});
 OutlinedStory.args = {
-  variant:'outlined',
+  variant: 'outlined',
   parameter1: 'vvv',
 };
