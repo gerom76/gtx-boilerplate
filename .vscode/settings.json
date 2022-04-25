@@ -1,0 +1,38 @@
+{
+  "editor.formatOnSave": true,
+  "typescript.preferences.quoteStyle": "single",
+  "javascript.preferences.quoteStyle": "single",
+  "editor.tabSize": 2,
+  "html.format.indentInnerHtml": true,
+  "files.insertFinalNewline": true,
+  "html.format.endWithNewline": false,
+  "files.trimFinalNewlines": true,
+  "editor.trimAutoWhitespace": true,
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.extension.sortImports.pathSortOrder": [
+    "package",
+    "relativeUpLevel",
+    "relativeDownLevel"
+  ],
+  "typescript.extension.sortImports.sortMethod": "path",
+  "cSpell.words": [
+    "FIQL",
+    "FRONTDESK",
+    "configurated"
+  ],
+  "jest.enableInlineErrorMessages": true,
+  "jest.debugMode": true,
+  "jestrunner.runOptions": [
+    "--env=jsdom"
+  ],
+  "i18next.i18nPaths": "src/i18n",
+  "react-i18n.i18nPaths": "src\\i18n",
+  "i18n-ally.localesPaths": "src/i18n",
+  "i18n-ally.keystyle": "flat"
+}
