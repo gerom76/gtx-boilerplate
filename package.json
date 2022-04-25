@@ -60,7 +60,8 @@
     "lint": "yarn run eslint src",
     "lint:fix": "yarn run eslint --fix src",
     "lint:css": "stylelint src/**/*.css",
-    "prettify": "prettier --write ./src",
+    "prettier:check": "prettier --check \"src/**/*.(tsx|ts|scss)\"",
+    "prettier:write": "prettier --write \"src/**/*.(tsx|ts|scss)\"",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public"
   },
