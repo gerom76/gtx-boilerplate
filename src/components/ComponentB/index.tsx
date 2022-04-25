@@ -14,6 +14,7 @@ export const ComponentB: React.FC<Props> = ({
 }) => {
   const [viewModel, setViewModel] = React.useState(new ComponentBViewModel());
   React.useEffect(() => {
+    console.info('ComponentB.uE [] parameter1', parameter1);
     setViewModel(v => {
       return { ...v, option1: parameter1 };
     });

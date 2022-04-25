@@ -19,6 +19,9 @@ exports[`ComponentB tests renders correctly 1`] = `
   tabIndex={0}
   type="button"
 >
-  defaultOptionMUI
+  MUI3
+  <span
+    className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+  />
 </button>
 `;

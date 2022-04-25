@@ -8,6 +8,7 @@ interface Props {
 export const ComponentA: React.FC<Props> = ({ parameter1, className }) => {
   const [viewModel, setViewModel] = React.useState(new ComponentAViewModel());
   React.useEffect(() => {
+    console.info('ComponentA.uE [] parameter1', parameter1);
     setViewModel(v => {
       return { ...v, option1: parameter1 };
     });

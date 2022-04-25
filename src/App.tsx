@@ -13,10 +13,10 @@ function App() {
       <header className="app-header">
         <img src={logo} className="app-logo" alt="logo" />
         <>
-          <ComponentA parameter1="AbC" className="color-main"></ComponentA>
+          <ComponentA parameter1="AbC2" className="color-main"></ComponentA>
         </>
         <>
-          <ComponentB parameter1="MUI" className="color-main"></ComponentB>
+          <ComponentB parameter1="MUI2" className="color-main"></ComponentB>
         </>
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
