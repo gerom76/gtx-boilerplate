@@ -17,11 +17,13 @@ const Template: ComponentStory<typeof ComponentB> = args => (
 );
 
 //👇 Each story then reuses that template
-export const Primary = Template.bind({});
-Primary.args = {
+export const DefaultStory = Template.bind({});
+DefaultStory.args = {
   parameter1: 'vvv',
 };
 
-// export const Primary: ComponentStory<typeof ComponentB> = () => (
-//   <ComponentB parameter1="vvv" />
-// );
+export const OutlinedStory = Template.bind({});
+OutlinedStory.args = {
+  variant:'outlined',
+  parameter1: 'vvv',
+};
