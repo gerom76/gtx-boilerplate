@@ -7,13 +7,12 @@ describe('ComponentB tests', () => {
   it('renders correctly', async () => {
     // act
     const sut = <ComponentB parameter1="MUI3" />;
-    let testRenderer = TestRenderer.create(sut);
-    act(() => {
-      testRenderer = TestRenderer.create(sut);
-    });
 
-    // assert
-    const tree = testRenderer.toJSON();
-    expect(tree).toMatchSnapshot();
+    act(() => {
+      const testRenderer = TestRenderer.create(sut);
+      // assert
+      const tree = testRenderer.toJSON();
+      expect(tree).toMatchSnapshot();
+    });
   });
 });
