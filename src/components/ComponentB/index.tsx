@@ -17,7 +17,14 @@ export const ComponentB: React.FC<Props> = ({ parameter1, className, variant }) 
   }, [parameter1]);
 
   return (
-    <Button variant={variant} className={className}>
+    <Button
+      variant={variant}
+      className={className}
+      size={'large'}
+      onClick={() => {
+        console.info('Button clicked');
+      }}
+    >
       {viewModel.option1}
     </Button>
   );
