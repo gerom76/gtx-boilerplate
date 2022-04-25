@@ -79,7 +79,17 @@
           "**/*.stories.*"
         ],
         "rules": {
-          "import/no-anonymous-default-export": "off"
+          "eqeqeq": 1,
+          "no-unreachable": 1,
+          "no-mixed-operators": 0,
+          "react-hooks/exhaustive-deps": 0,
+          "no-unused-vars": 0,
+          "no-useless-escape": 0,
+          "no-useless-computed-key": 0,
+          "import/no-anonymous-default-export": 1,
+          "array-callback-return": 0,
+          "@typescript-eslint/no-unused-vars": 0,
+          "no-sequences": 1
         }
       }
     ]

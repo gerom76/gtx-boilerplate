@@ -12,9 +12,7 @@ export default {
 } as ComponentMeta<typeof ComponentB>;
 
 //👇 We create a “template” of how args map to rendering
-const Template: ComponentStory<typeof ComponentB> = args => (
-  <ComponentB {...args} />
-);
+const Template: ComponentStory<typeof ComponentB> = args => <ComponentB {...args} />;
 
 //👇 Each story then reuses that template
 export const DefaultStory = Template.bind({});

@@ -7,11 +7,7 @@ interface Props {
   className?: string;
   variant?: 'text' | 'outlined' | 'contained';
 }
-export const ComponentB: React.FC<Props> = ({
-  parameter1,
-  className,
-  variant,
-}) => {
+export const ComponentB: React.FC<Props> = ({ parameter1, className, variant }) => {
   const [viewModel, setViewModel] = React.useState(new ComponentBViewModel());
   React.useEffect(() => {
     console.info('ComponentB.uE [] parameter1', parameter1);
