@@ -1,5 +1,5 @@
 import TestRenderer, { act } from 'react-test-renderer';
-import { ComponentB } from '.';
+import { ComponentB } from './ComponentB';
 
 // REMARKS: How to update snapshot for CI:
 // yarn run test ComponentB -u

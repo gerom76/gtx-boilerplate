@@ -5,8 +5,15 @@ import Button from '@mui/material/Button';
 interface Props {
   parameter1: string;
   className?: string;
+  backgroundColor?: string;
+  /**
+   * What style should the button be?
+   */
   variant?: 'text' | 'outlined' | 'contained';
 }
+/**
+ * ComponentB component as MUI button wrapper
+ */
 export const ComponentB: React.FC<Props> = ({ parameter1, className, variant }) => {
   const [viewModel, setViewModel] = React.useState(new ComponentBViewModel());
   React.useEffect(() => {

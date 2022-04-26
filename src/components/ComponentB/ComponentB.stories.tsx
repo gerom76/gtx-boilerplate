@@ -1,6 +1,6 @@
 import React from 'react';
 import { ComponentStory, ComponentMeta } from '@storybook/react';
-import { ComponentB } from '.';
+import { ComponentB } from './ComponentB';
 import { within, userEvent } from '@storybook/testing-library';
 
 export default {
@@ -8,7 +8,7 @@ export default {
    * See https://storybook.js.org/docs/react/configure/overview#configure-story-loading
    * to learn how to generate automatic titles
    */
-  title: 'ComponentB',
+  title: 'Example2/Sub1/ComponentB',
   component: ComponentB,
 } as ComponentMeta<typeof ComponentB>;
 
