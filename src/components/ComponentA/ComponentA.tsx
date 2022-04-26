@@ -2,9 +2,15 @@ import React from 'react';
 import { ComponentAViewModel } from './ComponentAViewModel';
 
 interface Props {
+  /**
+   * Text within component
+   */
   parameter1: string;
   className?: string;
 }
+/**
+ * ComponentA component as basic example
+ */
 export const ComponentA: React.FC<Props> = ({ parameter1, className }) => {
   const [viewModel, setViewModel] = React.useState(new ComponentAViewModel());
   React.useEffect(() => {
